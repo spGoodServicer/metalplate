@@ -54,6 +54,10 @@
                                             <input name="description" type="text" class="form-control" value="" data-val="true">
                                         </div>
                                         <div class="form-group">
+                                            <label class="control-label mb-1">Video Url</label>
+                                            <input name="videourl" type="text" class="form-control" value="" data-val="true">
+                                        </div>
+                                        <div class="form-group">
                                             <label class="control-label mb-1">Detail</label>
                                             <textarea name="detail"  id="detail"></textarea>
                                             <script>

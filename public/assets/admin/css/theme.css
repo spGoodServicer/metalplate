@@ -71,6 +71,9 @@ button {
     border: none;
     background: none;
 }
+.main-content{
+  margin-left: 20px;
+}
 /*
 img {
     max-width: 100%;

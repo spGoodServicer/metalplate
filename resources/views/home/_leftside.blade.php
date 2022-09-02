@@ -113,7 +113,7 @@
     </a>
 </div>
 <div class="mt-1">
-    <a href="">
+    <a href="{{ route('movie') }}">
         <img width="100%" src="{{ asset('assets/images/left_5.png')}}">
     </a>
 </div>

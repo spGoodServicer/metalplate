@@ -18,6 +18,8 @@
     <link href="{{ asset('assets')}}/css/jquery.fancybox.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{{ asset('assets')}}/css/style.css" rel="stylesheet">
+    <link href="{{ asset('assets')}}/css/import.css" rel="stylesheet">
+<link href="{{ asset('assets')}}/css/movie.css" rel="stylesheet">
 
     @yield('css')
 

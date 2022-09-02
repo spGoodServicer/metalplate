@@ -1159,6 +1159,13 @@ footer p {
 	margin: 0 auto;
 	text-align: center;
 }
+.reference-main{
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: skyblue;
+}
 .breadcrumb-main .breadcrumb{
 	background: #1273eb;
 	border-radius: 100px 100px 0px 0px;

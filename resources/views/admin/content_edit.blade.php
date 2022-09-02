@@ -56,6 +56,10 @@
                                             <input name="description" type="text" class="form-control" value="{{ $content->description }}" data-val="true">
                                         </div>
                                         <div class="form-group">
+                                            <label class="control-label mb-1">Video Url</label>
+                                            <input name="videourl" type="text" class="form-control" value="{{ $content->video_url }}" data-val="true">
+                                        </div>
+                                        <div class="form-group">
                                             <label class="control-label mb-1">Detail</label>
                                             <textarea name="detail" id="detail">{{ $content->detail }}</textarea>
                                             <script>

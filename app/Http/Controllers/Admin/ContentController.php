@@ -65,6 +65,7 @@ class ContentController extends Controller
         }
         $content->keywords = $request->input('keywords');
         $content->description = $request->input('description');
+        $content->video_url = $request->input('videourl');
         $content->detail = $request->input('detail');
         if($request->file('image')!=null) {
             $content->image = Storage::putFile('images', $request->file('image'));
@@ -117,6 +118,7 @@ class ContentController extends Controller
         // }
         $content->keywords = $request->input('keywords');
         $content->description = $request->input('description');
+         $content->video_url = $request->input('videourl');
         $content->detail = $request->input('detail');
         if($request->file('image')!=null) {
             $content->image = Storage::putFile('images', $request->file('image'));

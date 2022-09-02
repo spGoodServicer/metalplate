@@ -28,6 +28,7 @@
                                     <th>Image</th>
                                     <th>Image Gallery</th>
                                     <th>Status</th>
+                                    <th>VIdeo Url</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -56,6 +57,9 @@
                                         </td>
                                         <td>
                                             <span class="status--process">{{ $rs->status }}</span>
+                                        </td>
+                                        <td>
+                                            <span class="status--process">{{ $rs->video_url }}</span>
                                         </td>
                                         <td>
                                             <div class="table-data-feature">

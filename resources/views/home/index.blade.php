@@ -122,7 +122,7 @@
                                                                         <ul class="d-flex justify-content-start list-unstyled">
                                                                             <li><img src="{{ asset('assets/images/ttl_bend_list_ita.gif')}}" alt="4角曲げ" width="125" height="120" data-xblocker="passed" style="visibility: visible;"></li>
                                                                             <li class="ml-1 next-step">
-                                                                                <a href="{{route("cut")}}">
+                                                                                <a href="{{route('cut')}}">
                                                                                     <img src="{{ asset('assets/images/bend_list_ita_1.gif')}}" alt="金属板" width="125" height="120" data-xblocker="passed" style="visibility: visible;">
                                                                                 </a>
                                                                             </li>
